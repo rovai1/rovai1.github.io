@@ -1,0 +1,25 @@
+body{
+    color:white;
+    margin-left: 40px;
+    background-image:url("../kuvat/kuvaharj1.webp");
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+p{
+    font-family: Verdana;
+}
+h1{
+    font-family: Georgia;
+}
+h2{
+    font-family: Georgia;
+}
+img {
+    width: 220px;
+    border:2px #8f32cc solid;
+    padding:20px;
+}
+#internet{
+    
+}
