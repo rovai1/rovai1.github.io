@@ -1,0 +1,52 @@
+header{
+    background-color:#ffffff;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+}
+.navi li {
+    float: right;
+}
+ul.navi {
+    position:fixed;
+    width:fit-content;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    height:40px;
+    justify-content: center;
+}
+.navi li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navi li a:hover {
+    background-color: #ffffff;
+}
+.navi a:hover:not(.active){
+    background-color: #cccccc;
+}
+.navi.active {
+    background-color: #999999;
+}
+#varaus{
+    display:flex;
+}
+#ruokalista{
+    text-align: center;
+}    
+#kuvat{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Heebo', sans-serif;
+    font-size:6em;
+}
+
