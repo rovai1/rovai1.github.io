@@ -10,6 +10,7 @@
     <body>
         <header>
             <ul class="navi">
+                <li><a class="active" href="#ravintola">Ravintola Oula</a></li>
                 <li><a href="#lounaslista">Lounaslista</a></li>
                 <li><a href="#aukioloajat">Aukioloajat</a></li>
                 <li><a href="#pöytävaraus">Pöytävaraus</a></li>
@@ -17,127 +18,138 @@
             </ul>
         </header>
 
-        <h1>Ravintola Oula</h1>
-        <div id="ruokalista">
-        <a name="lounaslista"> <h2>Lounaslista</h2> </a>
-        <div id="kuvat">
-            <img src="./kuvat/ruoka1.jpg" alt="Kasviksia">
-            <img src="./kuvat/ruoka2.jpg" alt="ruokaa">
-            <img src="./kuvat/ruoka3.jpg" alt="lasagnea">
-            <img src="./kuvat/ruoka4.jpg" alt="ruokaa">
-            <img src="./kuvat/ruoka5.jpg" alt="kasviksia">
-        </div>
-        
-        <h3>Maanantai</h3>
+        <section id="otsikko">
+        <a name="ravintola"> <h1>Ravintola Oula</h1> </a>
+        </section>
 
-            <p>Juusto-vihanneskeittoa ja kokin sämpylä
-            Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia
-            Marjakiisseliä ja hunajakermavaahtoa</p>
+        <section id="lounaslista">
+            <a name="lounaslista"> <h2>Lounaslista</h2> </a>
+            <div id="kuvat">
+                <img src="./kuvat/ruoka1.jpg" alt="Kasviksia">
+                <img src="./kuvat/ruoka2.jpg" alt="ruokaa">
+                <img src="./kuvat/ruoka3.jpg" alt="lasagnea">
+                <img src="./kuvat/ruoka4.jpg" alt="ruokaa">
+                <img src="./kuvat/ruoka5.jpg" alt="kasviksia">
+            </div>
             
-            
-        <h3>Tiistai</h3>
-            
-            <p>Kana-fetajustosalaattia ja kokin sämpylä
-            Paistettua punakampelaa, pinaattikastiketta ja perunamuusia
-            Pannukakkua, mansikkahilloa ja kermavaahtoa</p>
-            
-            
-        <h3>Keskiviikko</h3>
-            
-            <p>Tomaatti-yrttikeittoa ja kokin sämpylä
-            Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia
-            Omenapiirakkaa ja vaniljakastiketta</p>
-            
-            
-        <h3>Torstai</h3>
-            
-            <p>Rapukeittoa ja kokin sämpylä
-            Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja
-            Hedelmäsalaattia ja kinuskikastiketta</p>
-            
-            
-        <h3>Perjantai</h3>
-            
-            <p>Savulohisalaatti ja kokin sämpylä
-            Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia
-            Suklaamousse</p>
-            
-        <p>Lounaan hinta (11 euroa, sisältää ruokajuoman - vesi, kotikalja, maito)</p>
-        </div>
-        <a name="aukioloajat"> <h2>Aukioloajat</h2> </a>
-        <table>
-            <tr>
-                <th>ma</th>
-                <th>ti</th>
-                <th>ke</th>
-                <th>to</th>
-                <th>pe</th>
-                <th>la</th>
-            </tr>
-            <tr>
-                <td>10:30 - 15:00</td>
-                <td>10:30 - 15:00</td>
-                <td>10:30 - 15:00</td>
-                <td>10:30 - 15:00</td>
-                <td>10:30 - 15:00 <br> 17:00 - 21:00</td>
-                <td>11:00 - 15:00 <br> 17:00 - 21:00</td>
-            </tr>
-        </table>
+            <h3>Maanantai</h3>
 
-        <a name="pöytävaraus"> <h2>Pöytävaraus</h2> </a>
-        <div id="varaus">
-        <form>
-            Etunimi<br>
-            <input type="text" name="enimi" id="enimi" required> <br>
+                <p>Juusto-vihanneskeittoa ja kokin sämpylä
+                Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia
+                Marjakiisseliä ja hunajakermavaahtoa</p>
                 
-            Sukunimi<br>
-            <input type="text" name="snimi" id="snimi" required> <br>
+                
+            <h3>Tiistai</h3>
+                
+                <p>Kana-fetajustosalaattia ja kokin sämpylä
+                Paistettua punakampelaa, pinaattikastiketta ja perunamuusia
+                Pannukakkua, mansikkahilloa ja kermavaahtoa</p>
+                
+                
+            <h3>Keskiviikko</h3>
+                
+                <p>Tomaatti-yrttikeittoa ja kokin sämpylä
+                Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia
+                Omenapiirakkaa ja vaniljakastiketta</p>
+                
+                
+            <h3>Torstai</h3>
+                
+                <p>Rapukeittoa ja kokin sämpylä
+                Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja
+                Hedelmäsalaattia ja kinuskikastiketta</p>
+                
+                
+            <h3>Perjantai</h3>
+                
+                <p>Savulohisalaatti ja kokin sämpylä
+                Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia
+                Suklaamousse</p>
+                
+            <p>Lounaan hinta (11 euroa, sisältää ruokajuoman - vesi, kotikalja, maito)</p>
+        </section>
 
-            Sähköposti<br>
-            <input type="email" required><br>
+        <section id="aukioloajat">
+            <a name="aukioloajat"> <h2>Aukioloajat</h2> </a>
+            <div id="ajat">
+            <table>
+                <tr>
+                    <th>ma</th>
+                    <th>ti</th>
+                    <th>ke</th>
+                    <th>to</th>
+                    <th>pe</th>
+                    <th>la</th>
+                <tr>
+                    <td>10:30 - 15:00</td>
+                    <td>10:30 - 15:00</td>
+                    <td>10:30 - 15:00</td>
+                    <td>10:30 - 15:00</td>
+                    <td>10:30 - 15:00 17:00 - 21:00</td>
+                    <td>17:00 - 21:00 11:00 - 15:00</td>
+                </tr>
+            </table>
+            </div>
+        </section>
 
-            Ajankohta<br>
-            <input type="date" required><br>
+        <section id="pöytävaraus">
+            <a name="pöytävaraus"> <h2>Pöytävaraus</h2> </a><br>
+            <div id="varaus">
+            <form>
+                Etunimi<br>
+                <input type="text" name="enimi" id="enimi" required> <br>
+                    
+                Sukunimi<br>
+                <input type="text" name="snimi" id="snimi" required> <br>
 
-            Istumapaikkojen määrä<br>
-            <select name="määrä" required>
-                <option value="1">
-                1 </option>
-                <option value="2">
-                2 </option>
-                <option value="3">
-                3 </option>
-                <option value="4">
-                4 </option>
-                <option value="5">
-                5 </option>
-                <option value="6">
-                6 </option>
-                <option value="7">
-                7 </option>
-                <option value="8">
-                8 </option>
-            </select> <br>
+                Sähköposti<br>
+                <input type="email" required><br>
 
-            Erikoistoivomuksia<br>
-            <textarea>
+                Ajankohta<br>
+                <input type="date" required><br>
 
-            </textarea><br>
+                Istumapaikkojen määrä<br>
+                <select name="määrä" required>
+                    <option value="1">
+                    1 </option>
+                    <option value="2">
+                    2 </option>
+                    <option value="3">
+                    3 </option>
+                    <option value="4">
+                    4 </option>
+                    <option value="5">
+                    5 </option>
+                    <option value="6">
+                    6 </option>
+                    <option value="7">
+                    7 </option>
+                    <option value="8">
+                    8 </option>
+                </select> <br>
 
-            <input type="reset" value="Tyhjennälomake">
-            <input type="submit" value="Lähetä tiedot">
-        </form>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.1258541288453!2d25.725578043034034!3d66.49776212051034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x442b4bed11188d49%3A0x1657bd88c2a942ae!2sHallituskatu%2012%2C%2096100%20Rovaniemi!5e0!3m2!1sfi!2sfi!4v1601962722203!5m2!1sfi!2sfi" width="375" height="325" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <h2>Tiedot</h2>
-        <address>
-            Ravintola Oula<br>
-            Hallituskatu 12<br>
-            96200 ROVANIEMI<br>
+                Erikoistoivomuksia<br>
+                <textarea>
 
-            Puh. (016) 555 4755<br>
-            Fax (016) 555 4756<br>
-            E-Mail: ravintola.oula@oulanet.fi
-        </address>
+                </textarea><br>
+
+                <input type="reset" value="Tyhjennälomake">
+                <input type="submit" value="Lähetä tiedot">
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.1258541288453!2d25.725578043034034!3d66.49776212051034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x442b4bed11188d49%3A0x1657bd88c2a942ae!2sHallituskatu%2012%2C%2096100%20Rovaniemi!5e0!3m2!1sfi!2sfi!4v1601962722203!5m2!1sfi!2sfi" width="375" height="325" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+        <section id="tiedot">
+            <h2>Tiedot</h2>
+            <address>
+                Ravintola Oula<br>
+                Hallituskatu 12<br>
+                96200 ROVANIEMI<br>
+
+                Puh. (016) 555 4755<br>
+                Fax (016) 555 4756<br>
+                E-Mail: ravintola.oula@oulanet.fi
+            </address>
+        </section>
     </body>
 </html>

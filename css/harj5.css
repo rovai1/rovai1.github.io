@@ -1,45 +1,35 @@
-header{
-    background-color:#ffffff;
-    width: 100%;
-    text-align: center;
-    height: 60px;
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-.navi li {
-    float: right;
+
+li {
+  float: left;
 }
-ul.navi {
-    position:fixed;
-    width:fit-content;
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    height:40px;
-    justify-content: center;
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-.navi li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+
+li a:hover:not(.active) {
+  background-color: #111;
 }
-.navi li a:hover {
-    background-color: #ffffff;
+
+.active {
+  background-color: #4CAF50;
 }
-.navi a:hover:not(.active){
-    background-color: #cccccc;
-}
-.navi.active {
-    background-color: #999999;
-}
-#varaus{
-    display:flex;
-}
-#ruokalista{
-    text-align: center;
-}    
 #kuvat{
     width:100%;
     display:flex;
@@ -48,5 +38,29 @@ ul.navi {
 h1{
     font-family: 'Heebo', sans-serif;
     font-size:6em;
+    background-image: url(../kuvat/otsikontausta.jpg)
 }
-
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+#varaus{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size:2em;
+    color: #4CAF50;
+    background-color: #111;
+}
+body{
+    text-align:center;
+}
+#ajat{
+    display: flex;
+    justify-content: center;
+}
