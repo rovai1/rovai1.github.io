@@ -26,14 +26,19 @@ footer{
     background: rgb(100, 100, 240);
 }
 .container,
-.content{
+.content,
+.cont{
     display: flex;
     flex-direction: column;
 }
-@media all and (min-width: 768px) {
-    .content{
+@media all and (min-width: 1068px) {
+    .content,
+    .cont{
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .cont{
+        flex:3;
     }
     article{
         flex :7;
@@ -47,8 +52,39 @@ footer{
     }
     .aside{
         order: 3;
+        flex:1;
+    }
+}
+@media all and (max-width: 1068px) {
+    .cont{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    article{
+        flex :7;
+        order: 1;
+        min-height:70vh;
+    }
+    figure{
+        order:1;
+        flex:3;
+        color:black;
+    }
+    .aside{
+        order: 3;
         flex:2;
-        max-width: 100px;
+    }
+}
+@media all and (max-width: 800px) {
+    figure{
+        display:none;
+    }
+    .aside{
         display:none
+    }
+}
+@media all and (max-width: 400px) {
+    footer{
+        display:none;
     }
 }
