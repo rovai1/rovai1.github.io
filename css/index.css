@@ -1,0 +1,14 @@
+body {margin:0;}
+h1{
+    font-family: 'Heebo', sans-serif;
+    font-size:4em;
+    background-image: url(../kuvat/otsikontausta.jpg)
+}
+h2{
+    font-family: 'Heebo', sans-serif;
+    color: #76e47a;
+    background-color: #111;
+}
+ul{
+    list-style: none;
+}
