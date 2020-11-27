@@ -1,7 +1,13 @@
 body{
     margin:0;
 }
-ul {
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+ul.navi {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -13,7 +19,7 @@ ul {
   
 
   
-li a, .dropbtn {
+li.navibar a, .dropbtn {
     display: inline-block;
     color: white;
     padding: 14px 16px;
@@ -52,10 +58,44 @@ li.dropdown {
 section{
     height: 100vh;
 }
+
 #alku{
-    background-image: url(./book.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./book.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#3A405A;
+    opacity:100%;
+    
 }
 #logo{
     margin:1em;
+}
+
+#sinbox{
+    position: absolute;
+    background-color:#3A405A;
+    opacity:60%;
+    bottom:0;
+    width:100%;
+    height:35%;
+    z-index: 3;
+    margin: 0;
+}
+.valkoinen{
+    color:white;
+    font-size: 40px;
+}
+#sinteksti{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:35%;
+    z-index: 3;
+    margin: 0;
+}
+#alku_text {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 40px;
 }
