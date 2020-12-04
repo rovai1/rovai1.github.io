@@ -4,43 +4,146 @@
         <title>harj7</title>
         <meta charset = "UTF-8">
         <link rel="stylesheet" type="text/css" href="./taitaja.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
             <ul class="navi">
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Tietoja</a>
+                <div class="dropdown">
+                    <button class="dropbtn linkki">Tietoja
+                        <i class="fa fa-caret-down"></i>
+                    </button>
                     <div class="dropdown-content">
-                      <a href="">Tutustu</a>
-                      <a href="">Varainhankinta</a>
-                      <a href="">Töihin</a>
+                        <div class="drop-1">
+                            <a class="linkki" href=""><strong>Tutustu ></strong></a>
+                            <a class="linkki" href=""><strong>Varainhankinta ></strong></a>
+                            <a class="linkki" href=""><strong>Töihin ></strong></a>
+                            <a class="linkki" href=""><strong>Tietosuoja ></strong></a> 
+                            <p class="valkoinen2">Tietosuoja on meille tärkeä ja
+                            haluammekin osoittaa, miten ja
+                            minkälaisten tehtävien hoitamiseksi
+                            henkilötietoja käsittelemme.</p>
+                        </div>
+                        <div class="drop-2">
+                            <a class="linkki" href=""><strong>Laatu ></strong></a>
+                                <p class="valkoinen2">Tervetuloa tutustumaan meidän laatuun. Näillä sivuilla kerromme, kuinka vastaamme toimintansa laadusta eurooppalaisen korkeakoulutusalueen periaatteiden mukaisesti.</p>
+                            <a class="linkki" href=""><strong>Kansainvälisyys ></strong></a>
+                                <p class="valkoinen2">Kansainvälisty kanssamme! Hyödynnä laajaa kansainvälistä verkostoamme sekä osaamistamme kilpailukykysi kehittäjänä.</p>
+                        </div>
+
                     </div>
-                <li class="navibar"><a href="#">Yhteystiedot</a></li>
-                <li class="navibar"><a href="#">Kirjaudu</a></li>
-                <li class="navibar"><a href="#">FI |</a></li>
-                <li class="navibar"><a href="#">SE |</a></li>
-                <li class="navibar"><a href="#">EN</a></li>
+                </div>
+                <li class="navibar linkki"><a href="#">Yhteystiedot</a></li>
+                <li class="navibar linkki"><a href="#">Kirjaudu  <i class="fa fa-lock"></i></a></li>
+                <li class="navibar linkki"><a href="#"><strong>FI</strong> |</a></li>
+                <li class="navibar linkki"><a href="#">SE |</a></li>
+                <li class="navibar linkki"><a href="#">EN</a></li>
             </ul>
         </header>
         <section id=alku>
             <div id="alku_cont">
                 <img id="logo" src="./Logo-1.svg" alt="logo" height="170px" width="350px">
                 <div id=alku_text>
-                    <p class="valkoinen">Palvelut</p>
-                    <p class="valkoinen">Tutkimus ja kehitus</p>
+                    <p class="isot">Palvelut</p>
+                    <p class="isot">Tutkimus ja kehitus</p>
                 </div>
 
                 <div id=sinbox>
                 </div>
-                    <div id=sinteksti>
-                        <h3 class="valkoinen">Hanki soiva tulevaisuus koulustamme!</h3>
-                        <p class="valkoinen"><strong>Kellot soi, vai soiko?</strong> koulu on kansainvälisesti tunnustettu oppimisen uudistaja ja
-                        kilpailukyvyn kehittäjä. Teemme aktiivista yhteistyötä työelämän kanssa ja toimimme
-                        laajassa kansainvälisessä verkostossa. Opiskelijoita meillä on 3500 ja henkilöstöä noin 320.</p>
-                    </div>
+                <div id=sinteksti>
+                    <h3 class="valkoinen">Hanki soiva tulevaisuus koulustamme!</h3>
+                    <p class="valkoinen"><strong>Kellot soi, vai soiko?</strong> koulu on kansainvälisesti tunnustettu oppimisen uudistaja ja
+                    kilpailukyvyn kehittäjä. Teemme aktiivista yhteistyötä työelämän kanssa ja toimimme
+                    laajassa kansainvälisessä verkostossa. Opiskelijoita meillä on 3500 ja henkilöstöä noin 320.</p>
+                </div>
 
                 </div>
         </section>
+        <section class=laatikot>
+            <div id=laatikko>
+                <img id="kuva1" src="./laatikko1-kuva.PNG">
+                <h3>Lokakuun yhteishaku</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Vestibulum eleifend et orci at
+                    dignissim. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Vestibulum eleifend
+                    et orci at dignissim.</p>
+                <button class="lisää">Hae meille</button>
+            </div>
+            <div id=laatikko>
+                <img id="kuva2" src="./laatikko2-kuva.PNG">
+                <h3>Aliquam erat volutpat rhoncus</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Vestibulum eleifend et orci at
+                    dignissim. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Vestibulum eleifend
+                    et orci at dignissim.</p>
+                <button class="lisää">Lue lisää</button>
+            </div>
+            <div id=laatikko>
+                <img id="kuva3" src="./laatikko3-kuva.PNG">
+                <h3>Sed id praesent felis ac lorem himenaeos</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Vestibulum eleifend et orci at
+                    dignissim. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Vestibulum eleifend
+                    et orci at dignissim.</p>
+                <button class="lisää">Lue lisää</button>
+            </div>
+        </section>
+        <hr>
+        <section id=loppu1>
+            <img id=kuva4 src="./kuva4.PNG">
+            <div id="loppu">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Morbi sit amet fringilla</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet fringilla purus. Nulla aliquam mollis vestibulum. Proin
+                    luctus magna mauris, nec feugiat nisi tempor id. Mauris quis rhoncus nibh. Morbi aliquam, lorem sed laoreet dapibus, odio lorem
+                    eleifend risus, eu eleifend purus orci at nulla. Suspendisse at euismod mauris. Donec mattis magna risus. Etiam elit metus, rhoncus
+                    ut egestas at, ultrices vitae orci. Aliquam erat volutpat. Sed id felis ac augue vehicula venenatis at porta ligula. Praesent augue
+                    purus, tempus vitae pulvinar ac, cursus at enim. Mauris eleifend tincidunt neque vel tristique. Cras sagittis justo nec lacus iaculis
+                    euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam fringilla interdum nisl,
+                    vitae semper neque facilisis non. Etiam eu erat quis felis pretium vehicula.</p>
+                <button class="lisää2 linkki">Lue lisää
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </section>
+        <hr>
+        <section id=loppu2>
+            <img id=kuva4 src="./kuva4.PNG">
+            <div id="loppu">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Morbi sit amet fringilla</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet fringilla purus. Nulla aliquam mollis vestibulum. Proin
+                    luctus magna mauris, nec feugiat nisi tempor id. Mauris quis rhoncus nibh. Morbi aliquam, lorem sed laoreet dapibus, odio lorem
+                    eleifend risus, eu eleifend purus orci at nulla. Suspendisse at euismod mauris. Donec mattis magna risus. Etiam elit metus, rhoncus
+                    ut egestas at, ultrices vitae orci. Aliquam erat volutpat. Sed id felis ac augue vehicula venenatis at porta ligula. Praesent augue
+                    purus, tempus vitae pulvinar ac, cursus at enim. Mauris eleifend tincidunt neque vel tristique. Cras sagittis justo nec lacus iaculis
+                    euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam fringilla interdum nisl,
+                    vitae semper neque facilisis non. Etiam eu erat quis felis pretium vehicula.</p>
+                <button class="lisää2 linkki">Lue lisää
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </section>
+        <hr>
+        <section id=loppu1>
+            <img id=kuva4 src="./kuva4.PNG">
+            <div id="loppu">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Morbi sit amet fringilla</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet fringilla purus. Nulla aliquam mollis vestibulum. Proin
+                    luctus magna mauris, nec feugiat nisi tempor id. Mauris quis rhoncus nibh. Morbi aliquam, lorem sed laoreet dapibus, odio lorem
+                    eleifend risus, eu eleifend purus orci at nulla. Suspendisse at euismod mauris. Donec mattis magna risus. Etiam elit metus, rhoncus
+                    ut egestas at, ultrices vitae orci. Aliquam erat volutpat. Sed id felis ac augue vehicula venenatis at porta ligula. Praesent augue
+                    purus, tempus vitae pulvinar ac, cursus at enim. Mauris eleifend tincidunt neque vel tristique. Cras sagittis justo nec lacus iaculis
+                    euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam fringilla interdum nisl,
+                    vitae semper neque facilisis non. Etiam eu erat quis felis pretium vehicula.</p>
+                <button class="lisää2 linkki">Lue lisää
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </section>
         
-        tydutfuyguiosdeuyhdfsuhrfssrfsrfih
     </body>
