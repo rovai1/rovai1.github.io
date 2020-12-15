@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    border:0;
+    padding:0;
+}
+ul.navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #858585;
+    justify-content: flex-end;
+    display:flex;
+}
+li.nav-text{
+    display: inline-block;
+    color: #ffffff;
+    padding: 10px 18px;
+    text-decoration: none;
+}
+h1{
+    font-size: 150px;
+    margin:0;
+    left:5px;
+}
+#otsikko{
+    background-image: url(./Taitokisakuvat.jpg);
+    background-repeat:no-repeat ;
+    background-size: 100%;
+    height: 900px;
+    margin:0;
+    padding:0;
+    border:0;
+}
+#kokotoiminta{
+    display: flex;
+    justify-content: center;
+    padding: 20px
+}
+#toimi_h2{
+    font-size: 40px
+}
+#toimi_p{
+    font-size: 30px;
+}
+#toimi_img{
+    padding-right: 5px;
+    height: 700px;
+}
+#laatikot{
+    display: flex;
+    justify-content: center;
+}
+#laatikko{
+    border: 1px #000000 solid;
+    width:20%;
+    margin:50px;
+    height: 470px;
+    text-align: center;
+    border-radius: 20px;
+}
+#retki_otsikko1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+}
+#retki_otsikko2{
+    font-size: 40px;
+}
+#Pyhäjärvi, 
+#Isojärvi,
+#Helvetinjärvi,
+#Vätsäri{
+    border: 1px black solid;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color:#3A405A;
+    width: 90%;
+}
+#laatikko_h3{
+    font-size: 29px;
+}
+#laatikko_p{
+    font-size: 25px;
+}
+#yhteys{
+    display: flex;
+    justify-content: center;
+}
+#yhteys_tiedot{
+    justify-content: center;
+    text-align: center;
+    margin:5px;
+}
+#yhteys_h3{
+    font-size: 30px;
+}
+#yhteys_p{
+    font-size: 25px;
+}
+#Yhteystiedot{
+    margin:50px;
+}

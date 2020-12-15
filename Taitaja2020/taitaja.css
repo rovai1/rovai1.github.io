@@ -173,5 +173,73 @@ hr{
     color:#3A405A;
 }
 #loppu{
+    display: flex;
+    justify-content: center;
+    height:auto;
+    margin:20px
+}
+#loppu_p{
+    font-size: 25px;
+}
+#loppu_h2{
+    font-size: 30px;
+}
+#kuva4{
+    margin:20px;
+    width:600px;
+    height:500px
+}
+
+#viimeinen{
+    background-color:#3A405A;
+    height:500px;
     
+}
+#linkit{
+    color:#F9DEC9;
+    text-decoration: none;
+    font-size: 17px;
+    margin:5px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#viimeinen_div{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    list-style-type: none;
+    text-align: center;
+    width:300px;
+}
+#viimeinen_linkit{
+    display: flex;
+    justify-content: center;
+}
+#linkit:hover{
+    text-decoration: underline;
+}
+#info_p1{
+    color:white;
+    font-size: 18px;
+}
+#info{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+#info_p2{
+    color:white;
+    font-size: 10px;
+}
+#iconit{
+    display:flex;
+    justify-content: center;
+    margin:10px;
+}
+.fa-3x{
+    margin:5px;
+    color: #F9DEC9;
+}
+#viimeinen_kaikki{
+    display:flex;
+    height:20%;
 }
