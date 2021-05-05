@@ -1,6 +1,21 @@
-body {
-    margin:0;
+body {margin:0;}
+h1{
+    font-family: 'Heebo', sans-serif;
+    font-size:4em;
+    background-image: url(../vanhat/kuvat/otsikontausta.jpg)
+}
+h2{
+    font-family: 'Heebo', sans-serif;
+    color: #76e47a;
+    text-decoration: underline;
 }
 ul{
     list-style: none;
+}
+#työt{
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid grey;
+
 }
