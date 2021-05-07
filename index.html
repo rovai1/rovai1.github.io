@@ -3,15 +3,133 @@
     <head>
         <title>Palautuskansio</title>
         <meta charset = "UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="./style/style.css">
     </head>
     <body>
-        <h1>Minun työni</h1>
-        <div id="työt">
-            <h2>Vanhimmat</h2>
-            <ul>
-                <a href="./vanhat/Taitaja2020/hauska.html">Kellot soi työ</a></li>
-                <li><a href ="./vanhat/harj2.html">Ravintola oula</a></li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Years
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#first">First year</a>
+                    <a class="dropdown-item" href="#second">Second year</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <div class="main">
+            <h1>My webpages</h1>
+            <h2>Roni Vainio</h2>
+            <hr>
+            <h2 id="skills">Skills</h2>
+            <div class="taidot">
+                <div class="taito">
+                    <h4>PHP</h4>
+                    <hr>
+                    <p>? Years</p>
+                    <p>Medium</p>
+                </div>
+                <div class="taito">
+                    <h4>CSS</h4>
+                    <hr>
+                    <p>? years</p>
+                    <p>Medium</p>
+                </div>
+                <div class="taito">
+                    <h4>WordPress</h4>
+                    <hr>
+                    <p>? years</p>
+                    <p>Medium</p>
+                </div>
+                <div class="taito">
+                    <h4>JavaScript</h4>
+                    <hr>
+                    <p>? years</p>
+                    <p>Pretty bad</p>
+                </div>
+            </div>
+            <hr>
+            <h2 id="first">First year</h2><!-- First year -->
+            <div class="row">
+              <div class="column">
+                <div class="content"><a href="https://rovai1.github.io/vanhat/Taitaja2020/hauska.html">
+                  <img src="./images/kellot_soi.png" style="width:100%">
+                  <h3>My Work</h3>
+                  <p>Not Responsive</p>
+                </a></div>
+              </div>
+              <div class="column">
+                <div class="content"><a href="https://rovai1.github.io/vanhat/harj2.html">
+                  <img src="./images/ravintola_oula.png" style="width:100%">
+                  <h3>My Work</h3>
+                  <p>...</p>
+                </a></div>
+              </div>
+              <div class="column">
+                <div class="content"><a href="">
+                  <img src="./images/empty.png" style="width:100%">
+                  <h3>Empty</h3>
+                  <p>Nothing</p>
+                </a></div>
+              </div>
+              <div class="column">
+                <div class="content"><a href="">
+                  <img src="./images/empty.png" style="width:100%">
+                  <h3>Empty</h3>
+                  <p>Nothing</p>
+                </a></div>
+              </div>
+            </div>
+            
+            <hr>
+            <h2 id="second">Second year</h2><!-- Second year -->
+            <div class="row">
+              <div class="column">
+                <div class="content"><a href="">
+                    <img src="./images/empty.png" style="width:100%">
+                    <h3>Empty</h3>
+                    <p>Nothing</p>
+                  </a></div>
+              </div>
+              <div class="column">
+                <div class="content"><a href="">
+                    <img src="./images/empty.png" style="width:100%">
+                    <h3>Empty</h3>
+                    <p>Nothing</p>
+                  </a></div>
+              </div>
+              <div class="column">
+                <div class="content"><a href="">
+                  <img src="./images/empty.png" style="width:100%">
+                  <h3>Empty</h3>
+                  <p>Nothing</p>
+                </a></div>
+              </div>
+              <div class="column">
+                <div class="content"><a href="">
+                  <img src="./images/empty.png" style="width:100%">
+                  <h3>Empty</h3>
+                  <p>Nothing</p>
+                </a></div>
+              </div>
+            </div>
+            
+            <!-- END MAIN -->
+            </div>
     </body>
